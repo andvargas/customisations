@@ -1,0 +1,323 @@
+/*servicing icon list*/
+.icnlist .avia-icon-list .iconlist_icon {
+line-height: 20px!important;
+font-size: 30px!important;
+width:20px;
+}
+
+.icnlist .av-iconlist-small .iconlist_title_small {
+line-height: 14px!important;
+margin-bottom: 15px;
+}
+/*consumables menu*/
+.cons-submenu { 
+background-color: #2bc441;
+}
+
+/*RIGHT ALIGN PHONE NUMBER*/
+#menu-item-14884 { float: right!important;}
+
+/*REMOVE LINE UNDER MENU ITEMS*/
+.av-main-nav li:hover .avia-menu-fx, .current-menu-item > a > .avia-menu-fx, .av-main-nav li:hover .current_page_item > a > .avia-menu-fx {
+    visibility: hidden !important; 
+    background-color: transparent !important; 
+    border-color: transparent !important; 
+}
+
+/*Flip card fonts*/
+.brnds { 
+font-size: 10px!important;
+}
+/*TABBED SECTION TAB WIDTHS*/
+.av-inner-tab-title, .av-tab-section-icon, .av-tab-arrow-container, .av-tab-section-image {
+    width: auto; margin-left: 10px; margin-right: 10px;
+}
+.av-tab-with-image .av-inner-tab-title {
+    font-weight: 600; font-size:1.1em;
+}
+
+/*TABBED SECTION FULL WIDTH*/
+.postid-14095 .av-layout-tab .container {
+    max-width: 100%!important;
+    padding: 0;
+}
+.postid-14095 .av-tab-with-image img { height: 65px; width: 65px; }
+
+.page-id-6067 .av-layout-tab .container {
+    max-width: 100%!important;
+    padding: 0;
+}
+.page-id-6067 .av-tab-with-image img { height: 65px; width: 65px; }
+
+/*TABLET DROP DOWNS*/
+@media only screen and (max-width: 989px) and (min-width: 768px) {
+.responsive .mobile_menu_tablet .main_menu {
+display: block;
+}
+#menu-item-search {
+        float: right;
+        margin-left: 15px;
+        }
+}
+
+/*SEARCH BAR IN HEADER*/
+.custom-form {
+  position: absolute;
+  left: 40%;
+  top: 40px;
+}
+#top #searchform>div {
+  position: relative;
+  max-width: 500px;
+  width: 400px;
+}
+#s {
+background: white !important;
+}
+#top #searchform .ajax_search_response { display: none !important; }
+.ajax_load {
+display: none!important;
+}
+#header.header-scrolled .custom-form {
+  position: absolute;
+    top: 10px!important;
+}
+.search-results h2.entry-title a {
+    font-size: 22px;
+    text-transform: none;
+}
+.search-results .entry-content p {
+    font-size: 17px;
+    margin-top: -20px;
+}
+.header_color .ajax_search_excerpt { display: none; }
+.search .post-meta-infos {
+    display: none!important;
+}
+.search .page-heading-container.clearfix {
+    display: none;
+}
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+.custom-form {
+    display: none!important;
+}}
+
+@media only screen and (max-width: 989px) and (min-width: 480px) {
+.custom-form {
+    display: none!important;
+}}
+@media only screen and (max-width: 767px) {
+.custom-form {
+    display: none!important;
+}}
+
+
+/*ADDITIONAL 100% FOOTER ROW*/
+#footer .flex_column:nth-child(5) {
+    width: 100%;
+    margin-left: 0;
+}
+#footer .flex_column:nth-child(1), #footer .flex_column:nth-child(2), #footer .flex_column:nth-child(3), #footer .flex_column:nth-child(4) {
+    width: 20%;
+}
+
+/*MENU - OFFERS Orange*/
+li#menu-item-10678 a .avia-menu-text { padding: 6px!important; color: #444444; border: 2px solid #D8502A!important; }
+
+/*MENU - TELEPHONE Orange*/
+li#menu-item-14884 a .avia-menu-text { padding: 6px!important; color: #ffffff!important; border: 2px solid #D8502A!important; background: #D8502A!important; }
+
+.main_menu ul:first-child > li > a{
+padding: 0 15px 0 5px !important;
+}
+
+/* Center align columns inside color section*/
+#av-center-align-columns .entry-content-wrapper {
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+/*AV there was an error below line: -webkit-flex-flow: row wrap; */
+flex-flow: row wrap;
+justify-content: center;
+}
+
+/*REMOVE TRANSPARENCY HEADER*/
+header#header {
+  background: white;
+}
+
+/*SCROLL UP LOCATION*/
+#scroll-top-link { right: 33px; bottom: 120px; }
+
+/*.logo img { height: 60px; width: 160px; } */
+.header-scrolled .logo img, .header-scrolled.header-scrolled-full .logo img { height: 60px!important; width:153px!important; top: -10px;}
+
+/*CHANGE HEADER HEIGHT MOBILE*/
+@media only screen and (max-width: 767px) {
+.responsive #header_main .container {
+    height: 80px !important;
+}
+.responsive .logo a {
+    vertical-align: top !important;
+}
+.responsive .logo img {
+    max-height: 50px !important;
+}
+/*SEARCH WIDTH MOBILE*/
+#top #searchform>div {
+  position: relative;
+  max-width: 250px;
+  width: 250px;
+}}
+
+div .mfp-title {
+    font-size: 25px;
+}
+
+#top .avia-button.avia-size-large { 
+font-size: 15px;
+border-radius: 6px; 
+min-width: 100px !important; 
+padding: 15px!important; 
+}
+
+/*FEATURES DARK bullet points*/
+#top .avia_textblock  #featuresdark ul { margin-top: 10px;}
+#top .avia_textblock  #featuresdark ul li { color: #333333; font-size: 0.9em; line-height: 1.5em; margin-top: 0px;}
+
+/*FEATURES WHITE bullet points*/
+#top .avia_textblock  #features ul { margin-top: 10px;}
+#top .avia_textblock  #features ul li { color: #f7f7f7; font-size: 0.9em; line-height: 1.5em; margin-top: 5px;}
+
+#top .av-subnav-menu li a {
+    background-color: transparent;
+    /*color: white;*/
+    font-size: 14px;
+}
+
+/*LOGO AV-disabled on 28 Jul 2022
+#top .logo, .logo a {
+padding-top: 5px; margin-bottom: -10px;
+} */
+
+/*MAIN BODY CONTENT MOVE UP */
+.entry-content-wrapper { margin-top: -15px; }
+
+/*IMAGE OVERLAY FADE REMOVE*/
+.image-overlay {
+    background-color: transparent!important;
+}
+
+/*HEADERS*/
+body h2 {margin-top: 0px; text-transform: none!important;}
+
+/*h1, h2, h3, h4, h5, h6 {
+  text-transform:none !important;
+}*/
+
+/*DARK TRANSPARENT BUTTON*/
+#top #wrap_all .avia-button.avia-color-dark {
+    color: #000;
+    border: 3px solid #ffffff;
+    color: rgba(0,0,0,0.6);
+    border-color: rgba(224, 77, 38, 1);
+    background: transparent;
+}
+ #top #wrap_all .avia-button.avia-color-dark:hover {
+   background-color:#e04e26!important;
+   color:white;
+   opacity: 1!important;
+}
+
+/*FULL WIDTH BUTTON*/
+#top .avia-button-fullwidth {
+    padding: 10px !important;
+}
+
+/*WIDGET Menu lines*/
+#top .all_colors .widgettitle {
+font-weight: bold;
+border-style: solid;
+border-color: #9B9B9A;
+border-width: 1px;
+padding: 10px 0;
+border-left: none;
+border-right: none;
+margin-bottom: 15px;
+}
+
+#top .all_colors h3.widgettitle {
+font-weight: bold;
+font-family: verdana, sans-serif!important;
+font-size: 18px;
+color: #ffffff;
+}
+#top .container_wrap footer_color {
+border-top: none;
+}
+
+/*CONTACT US button and Buttonizer*/
+.buttonizer-button a.buttonizer_head .text {
+ font-family: Open Sans;
+  font-size: 24px;
+  width:180px;
+  height:40px;
+  background-color: #CF007F;
+ background: url("https://www.8bit.co.uk/printing/wp-content/uploads/2019/02/contactus.png") 0 0 no-repeat;
+padding: 3px 8px 20px 5px;
+}
+.buttonizer-button a .text {
+    background-color: #CF007F;
+}
+
+/*CONTACT US button and Buttonizer*/
+#header .mega_menu_title {
+line-height: 1.5em;
+}
+
+/*Send Us a File MENU BUTTON - POST scroll PINK*/
+li#menu-item-3268 a { color: #C52275; }
+/*Send Us a File BUTTON PRE scroll PINK*/
+#header.header_color.av_header_transparency .av-main-nav > li > a .avia-menu-text  {
+  border-color: #c4007a;
+  color: #c4007a;
+}
+#top #wrap_all .header_color.av_header_transparency .av-main-nav > li#menu-item-3268 > a .avia-menu-text {
+  border-color: #c4007a;
+  color: #c4007a;
+}
+
+/*SOCIAL MEDIA ICONS blue*/
+#top .av_header_glassy.av_header_transparency .social_bookmarks li, #top .av_header_glassy.av_header_transparency .social_bookmarks li a {color: #332d5b;}
+
+/*GLASSY header opacity*/
+#top .av_header_glassy.av_header_transparency #header_main {
+background-color: rgba(255,255,255,0.8);
+}
+
+#top .grid-content h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+}
+.float-left {float: left; width: 50%;}
+.float-right {float: right; width: 50%;}
+.float-3 {display: inline}
+.displayNone {display: none;}
+.narrower {padding: 0 3vw;}
+.shadowWhite {text-shadow: 2px 2px 3px #fff, -1px -1px 1px #fff;font-weight:900;}
+/*Font colour  change to white on the contact page AV*/
+.contactForm {color: silver;}
+.contactForm label{color: silver;}
+div.contactForm {color: white;}
+legend.contactForm p {color: silver;}
+.gfield_consent_description {background-color: white;}
+.contactForm h3 {color: silver; }
+.transparent{ background: rgba(0, 0, 0, 0.5);}
+/* Remove author from category page */
+span.blog-author.minor-meta, .text-sep {
+    display: none!important;
+}
